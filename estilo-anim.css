@@ -1,0 +1,22 @@
+@keyframes cubo {
+  0% {
+    width: 100px;
+  }
+  50% {
+    width: 200px;
+  }
+
+  100% {
+    width: 100px;
+  }
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  animation-name: cubo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
